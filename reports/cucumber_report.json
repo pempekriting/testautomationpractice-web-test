@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "user-registration;as-a-user,-i-can-register-through-the-website",
+        "id": "user-registration;as-a-user,-i-can-register-and-upload-the-file-through-the-website",
         "keyword": "Scenario",
         "line": 5,
-        "name": "As a User, I can register through the website",
+        "name": "As a User, I can register and upload the file through the website",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 564613428
+              "duration": 454604198
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3143322689
+              "duration": 2367986325
             }
           },
           {
@@ -40,20 +40,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1069623379
+              "duration": 6277755920
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 8,
-            "name": "I submit the forms",
+            "name": "I upload the files",
             "match": {
               "location": "features/step-definitions/homePage.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 262259
+              "duration": 2095625959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the success message",
+            "match": {
+              "location": "features/step-definitions/homePage.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18597331
             }
           },
           {
@@ -61,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 206040598
+              "duration": 183475239
             }
           }
         ],

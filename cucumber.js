@@ -1,5 +1,6 @@
 const options = [
  '--require-module ts-node/register',
+ '--require features/support/setup.ts',
  '--require features/step-definitions/**/*.ts',
  '--require features/support/**/*.ts',
  '--format progress',

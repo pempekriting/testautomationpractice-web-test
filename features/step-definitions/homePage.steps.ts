@@ -9,6 +9,10 @@ When('I fill all the forms', async function (this: CustomWorld) {
   await this.pageManager.onHomePage().fillForm();
 });
 
-Then(`I submit the forms`, async function (this: CustomWorld) {
+When(`I upload the files`, async function (this: CustomWorld) {
+  await this.pageManager.onHomePage().uploadFiles();
+});
 
+Then(`I see the success message`, async function (this: CustomWorld) {
+  await this.pageManager.onHomePage().assertionInputs();
 });
