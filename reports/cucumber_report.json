@@ -1,0 +1,79 @@
+[
+  {
+    "description": "    User Registration in Home Page",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-registration;as-a-user,-i-can-register-through-the-website",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "As a User, I can register through the website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 564613428
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the home page",
+            "match": {
+              "location": "features/step-definitions/homePage.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3143322689
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill all the forms",
+            "match": {
+              "location": "features/step-definitions/homePage.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069623379
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I submit the forms",
+            "match": {
+              "location": "features/step-definitions/homePage.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262259
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 206040598
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Registration",
+    "tags": [],
+    "uri": "features/gherkin/home.feature"
+  }
+]
