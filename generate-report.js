@@ -1,16 +1,16 @@
-const reporter = require('cucumber-html-reporter');
+const reporter = require("cucumber-html-reporter");
 const fs = require("fs");
 
 const options = {
-  theme: 'bootstrap',
-  jsonFile: 'reports/cucumber_report.json',
-  output: 'reports/report.html',
+  theme: "bootstrap",
+  jsonFile: "reports/cucumber_report.json",
+  output: "reports/report.html",
   reportSuiteAsScenarios: true,
   launchReport: true,
   metadata: {
-    'Project': 'Test Automation Practice',
-    'Platform': process.platform,
-    'Executed': 'Local',
+    Project: "Test Automation Practice",
+    Platform: process.platform,
+    Executed: "Local",
   },
 };
 
