@@ -112,7 +112,7 @@ Built and maintained by Kgs. Azzam Nizar.
 
 ## Report Evidence
 
-[HTML Report](https://)
+[HTML Report](https://pempekriting.github.io/testautomationpractice-web-test/reports/report.html)
 
 ---
 
